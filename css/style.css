@@ -1,0 +1,578 @@
+
+:root{
+    --maincolor:#f06d06;
+}
+
+h1{
+    background:var(--maincolor);
+    background-image: url()
+    /* margin: 0;
+    padding: 1rem; */
+
+}
+
+main{
+    /* padding:1rem; */
+    flex: 1;
+}
+
+/* start of home */
+.icon-color{
+    background: violet;
+}
+.banner{
+    background-image: url(../images/bg.jpg);
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.overlay{
+       background-color: rgba(0, 0, 0, 0.4);
+       height:100vh;
+       width: 100%;
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       right: 0;
+       left: 0;         
+}
+
+.navbar{
+       background-color: rgba(0, 0, 0, 0.9)
+}
+
+.navbar li a{padding: 5px;
+            font-family: georgia;
+            color: white;
+            font-size: 11px;
+        padding-left:30px;
+}
+
+.navbar-brand{
+             color: white;
+             font-size: 2vw;
+             font-family: georgia;
+             margin-left:5vw;
+}
+
+.intro {
+    color: white;
+    margin-left:6vw;
+    padding-top:20%;
+    font-family: georgia;
+}
+
+.design {
+  color: white;
+  margin-left:5vw;
+  font-size: 5vw;
+  font-family: georgia;
+  
+}
+
+.line{
+    background-color: red;
+    width: 5vw;
+    height: 8px;
+    margin-left:5%;
+    background-repeat: no-repeat;
+}
+
+/* end of home */
+
+
+/* about */
+
+.kania-studio{
+             font-family: georgia;
+}
+
+#first-heading{
+               background-color:orangered;
+               padding:1%;
+}
+
+.what-design-is{
+               color: white;
+               font-family: georgia;
+}
+
+#intro1{
+    width:30VW;
+}
+
+.line2{
+    background-color: red;
+    width: 2vw;
+    height: 4px;
+    margin-left:10%;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+}
+#feedback{
+    margin-right: 22%;
+    margin-top: -27px;
+    font-family: georgia;
+    font-size:14px;
+    font-weight: bold;
+
+}
+
+#about-us-title{font-weight: bold;
+                font-family: georgia;
+                padding-top:20%;
+
+}
+
+.line3{
+    background-color: red;
+    width: 22vw;
+    height: 5px;
+    margin-left:38%;
+    background-repeat: no-repeat;
+}
+
+.about-p{
+        font-family: georgia;
+}
+
+.custom{position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    font-family: georgia;
+    margin-top:80px;
+}
+
+#intro2{
+    width:40VW;
+}
+
+.learn-more{
+           margin-top:4%;
+           font-family:georgia;
+}
+
+.about-p2{
+         font-family: georgia;
+         font-size: 18px;
+}
+
+.box-shadow{
+    box-shadow: 2px 5px 18px;
+}
+
+.banner2{
+    background-image: url(../images/we.jpg);
+    height:70vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.overlay2{
+    background: black;
+    height:70vh;
+    width: 100%;
+    opacity: .6;
+    position: relative;
+}
+.box{
+    background: white;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 1.5vw;
+    font-family: georgia;
+}
+
+
+/* our services */
+
+.line4{
+    background-color: red;
+    width: 2vw;
+    height: 4px;
+    margin-left: 20%;
+    align-self: left;
+
+}
+
+#serve{
+      background-color: rgb(216, 253, 241);
+      font-family: georgia;
+}
+
+#services-one{
+             font-family: georgia;
+}
+
+.lines{margin-right:200%;}
+/* end of services */
+
+/* team */
+.team-paragraph{
+    font-family: georgia;
+}
+#card{
+    height:40vh;
+}
+
+.card1{
+    width: 60vw;
+}
+.btn-team{
+    width: 40%;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+.founder{
+    text-decoration: underline;
+    font-family: georgia;
+}
+.card-body-content{
+    font-family: georgia;
+}
+
+.cards{
+      margin-left:12%;
+    
+}
+ 
+.team{
+     font-size: 11px;
+}
+
+
+.overlay-latest-work{
+    background:white;
+    opacity:.9;
+    height: 100vh;
+    width: 50%;
+    position:relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.latest-work{
+    background-image: url(../images/work-1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100vh;
+    position: relative;
+
+}
+
+.latest-work2{
+    background-image: url(../images/work-2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100vh;
+    position: relative;
+
+}
+.project-name{
+    font-size: 4vw;
+    font-family: georgia;
+}
+.lorem-ipsum{
+    font-family: georgia;
+    font-size:12px;
+}
+.row1{
+    overflow: hidden;
+}
+#gallery-1{
+    position: relative;
+
+}
+#gallery-1:hover{
+    transform: scale(1.1);
+    transition: .6s;
+    
+}
+#gallery-4{
+    padding-top: 10%;
+}
+#gallery-4:hover{
+    transform: scale(1.1);
+    transition: .6s;
+    
+}
+
+/* end of gallery */
+
+
+.currency-bg{
+    height: 500px;
+    padding-top: 5%;
+}
+.bg-dark-touch{
+    background-color: black;
+}
+/* #card-1{
+    width: 50%;
+
+} */
+#card-body-1{   
+    width:100%;
+    height:auto;
+}
+.free{
+    padding-top: 10%;
+    font-size: 2vw;
+}
+.get-in-touch{
+    color: white;
+    font-family: georgia;
+}
+.amount{
+    font-size: 4vw;
+}
+.line-kania{
+    background: red;
+    height:4px;
+    width: 5%;
+}
+.adidas{
+    color:orangered;
+}
+
+#testimonial{
+            font-size:18px;;
+            font-family:georgia;
+            font-weight: bolder;
+}
+
+#kania{
+      font-family: georgia;
+}
+.img2{
+    /* margin-left: 30%; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#img12{
+    border: 1px solid lightcyan;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+.overlay4{
+    background-color: rgba(0, 0, 0, 0.4);
+    height:auto;
+    width: 100%;
+    opacity: .9;
+    position: relative
+}
+
+.banner3{
+    background-image: url(../images/banner.jpg);
+    height:auto;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.banner5{
+    background-image: url(../images/banner2.jpg);
+    height:auto;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:left;
+    background-repeat: no-repeat;
+
+}
+
+.overlay5{
+    background: black;
+    height:auto;
+    width: 100%;
+    opacity: .9;
+    position: relative;
+}
+
+/* rate-box */
+#rate-box{
+         font-family: georgia;
+         font-size:15px;
+         margin-top:18%;
+         padding-bottom: 20px;
+    
+}
+
+.line5{
+      background-color:rgb(2, 233, 14);
+      width: 10%;
+      margin-left:50%;
+      margin-top:5%;
+}
+
+.numbers-rate{
+             font-size:38px;
+}
+/* reviews */
+.name{
+     margin-left:22%;
+     font-size: 18px;
+     font-family: georgia;
+}
+
+.position{
+    margin-left:14%;
+    font-size: 14px;
+    font-family: georgia;
+    font-weight: lighter;
+}
+
+.reviews-btn{
+    margin-left:30%;
+}
+
+/* contact page */
+.first_image{
+    background: white;
+    height: auto;
+    width: 60%;
+    border-right: 1px solid red;
+}
+
+.second_image{
+    background: white;
+    height: auto;
+    width: 60%;
+    border-right: 1px solid red;
+}
+.contact-info-1{
+        background-image: url(../images/services-1.jpg);
+        height:auto;
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position:left;
+        background-repeat: no-repeat;
+        position: relative;
+}
+
+.get-intouch{
+            font-family: georgia;
+            font-size: 12px;
+            font-weight: bold;
+}
+.contact-overlay{
+    background: black;
+    height:100%;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+.contact-p-1{
+           padding-left: 20%;
+}
+.contact-h1{
+    padding-left: 20%;
+}
+
+.contact-input{
+              width:62%;
+              margin-left:20%;
+}
+.contact-button{
+    margin-left: 100px;
+}
+.line6{
+    background-color: red;
+    width: 5vw;
+    height: 8px;
+    margin-left:20%;
+    background-repeat: no-repeat;
+}
+
+/* footer */
+.footer{
+    height: auto;
+    padding-bottom: 20px;
+}
+/* .facebook{
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius:10%;
+    height: 70px;
+    width: 70px;
+} */
+.social-icons{
+             padding:15px;
+             color: black;
+             /* border: 1px solid black; */
+}
+.copy{
+     font-family:georgia;
+     font-size: 12px;
+     /* margin-left:5%; */
+}
+/* hover on social media icons */
+.social-icons:hover{
+    background-color: aliceblue;
+    transition: 1s;
+}
+.top{
+    color: rgb(255, 2, 2);
+    width: 2%;
+    bottom: 100px;
+    cursor:pointer;
+    position:fixed;
+    font-size:20px;
+    font-weight:20px;
+    margin-left: 5px;
+    padding: 5px;
+    
+    }
+.bottom{
+       background: white;
+       color: cyan;
+       margin-left:95%;
+       display:inline-block;
+       bottom:100px;
+       cursor: pointer;
+       position: fixed;
+       font-size: 20px;
+       font-weight: bolder;
+       padding: 5px;
+}
+
+/* hr{
+    background-color: var(--maincolor);
+} */
+
+
+.pager li {padding: 7px;
+    font-family: georgia;
+    color: black;
+    font-size: 14px;
+    padding-left: 4%;
+    list-style: none;
+    text-decoration-style: none;
+    display: inline;
+}
